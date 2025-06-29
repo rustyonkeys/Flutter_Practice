@@ -1,12 +1,13 @@
 import "package:flutter/material.dart";
-import "package:practice_ui/widgets/alert.dart";
-import "package:practice_ui/widgets/bottomnav.dart";
-import "package:practice_ui/widgets/drawer.dart";
-import "package:practice_ui/widgets/dropdown.dart";
-import "package:practice_ui/widgets/rowscols.dart";
-import "package:practice_ui/widgets/container_sized.dart";
-import "package:practice_ui/widgets/snackbar.dart";
-import 'package:practice_ui/widgets/dissmisible.dart';
+// import "package:practice_ui/widgets/alert.dart";
+// import "package:practice_ui/widgets/bottomnav.dart";
+// import "package:practice_ui/widgets/drawer.dart";
+// import "package:practice_ui/widgets/dropdown.dart";
+import "package:practice_ui/widgets/form.dart";
+// import "package:practice_ui/widgets/rowscols.dart";
+// import "package:practice_ui/widgets/container_sized.dart";
+// import "package:practice_ui/widgets/snackbar.dart";
+// import 'package:practice_ui/widgets/dissmisible.dart';
 
 
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
 
       ),
 
-      home:DropdownWidget(),
+      home:FormWidget(),
     );
   }
 }
