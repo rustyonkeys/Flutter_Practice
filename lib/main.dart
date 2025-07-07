@@ -10,6 +10,7 @@ import "package:practice_ui/widgets/stack.dart";
 // import "package:practice_ui/widgets/snackbar.dart";
 // import 'package:practice_ui/widgets/dissmisible.dart';
 import "package:practice_ui/widgets/card.dart";
+import "package:practice_ui/widgets/tabbar.dart";
 
 
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
 
       ),
 
-      home:CardWidget(),
+      home:TabBarWidget(),
     );
   }
 }
